@@ -1,0 +1,20 @@
+/CaloTowerCreatorForTauHLT.h/1.4/Wed Feb 17 17:50:22 2010//TCMSSW_4_4_2
+/DQMTauProducer.h/1.4/Thu Oct  6 12:41:10 2011//TCMSSW_4_4_2
+/EMIsolatedTauJetsSelector.h/1.4/Wed Feb 17 17:50:23 2010//TCMSSW_4_4_2
+/HLTTauProducer.h/1.9/Fri May 20 13:59:22 2011//TCMSSW_4_4_2
+/IsolatedTauJetsSelector.h/1.7/Wed Feb 17 17:50:24 2010//TCMSSW_4_4_2
+/L1HLTJetsMatching.h/1.2/Wed Feb 17 17:50:25 2010//TCMSSW_4_4_2
+/L2TauIsolationAlgs.h/1.6/Wed Jan 21 17:00:23 2009//TCMSSW_4_4_2
+/L2TauIsolationProducer.h/1.7/Sat Aug  7 21:04:54 2010//TCMSSW_4_4_2
+/L2TauIsolationSelector.h/1.6/Fri Dec 18 20:45:05 2009//TCMSSW_4_4_2
+/L2TauJetsMerger.h/1.3/Wed Feb 17 17:50:26 2010//TCMSSW_4_4_2
+/L2TauJetsProvider.h/1.19/Wed Feb 17 17:50:27 2010//TCMSSW_4_4_2
+/L2TauModularIsolationProducer.h/1.2/Fri Dec 18 20:45:05 2009//TCMSSW_4_4_2
+/L2TauModularIsolationSelector.h/1.2/Fri Dec 18 20:45:05 2009//TCMSSW_4_4_2
+/L2TauNarrowConeIsolationProducer.h/1.4/Sat Aug  7 21:04:54 2010//TCMSSW_4_4_2
+/L2TauRelaxingIsolationSelector.h/1.3/Fri Dec 18 20:45:05 2009//TCMSSW_4_4_2
+/L2TauSimpleClustering.h/1.1/Wed Jan 21 17:00:24 2009//TCMSSW_4_4_2
+/PFJetToCaloProducer.h/1.1/Tue Oct  5 21:43:43 2010//TCMSSW_4_4_2
+/PFTauToJetProducer.h/1.3/Wed Oct  6 14:46:36 2010//TCMSSW_4_4_2
+/TauJetSelectorForHLTTrackSeeding.h/1.2/Thu Oct 13 08:28:02 2011//TCMSSW_4_4_2
+D

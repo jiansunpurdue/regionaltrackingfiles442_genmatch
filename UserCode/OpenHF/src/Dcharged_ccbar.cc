@@ -1,0 +1,265 @@
+#include <iostream>
+#include "DataFormats/Candidate/interface/Candidate.h"
+#include "DataFormats/HepMCCandidate/interface/GenParticle.h"
+#include "SimDataFormats/GeneratorProducts/interface/HepMCProduct.h"
+#include "SimDataFormats/GeneratorProducts/interface/GenEventInfoProduct.h"
+#include "SimDataFormats/GeneratorProducts/interface/GenRunInfoProduct.h"
+
+// essentials !!!
+#include "FWCore/Framework/interface/Event.h"
+#include "DataFormats/Common/interface/Handle.h"
+#include "FWCore/Framework/interface/MakerMacros.h"
+
+#include "FWCore/ServiceRegistry/interface/Service.h" 
+#include "CommonTools/UtilAlgos/interface/TFileService.h"
+#include "TH1.h"
+#include "TTree.h"
+#include "TObject.h"
+#include "UserCode/OpenHF/container/daughterparticle.h"
+#include "UserCode/OpenHF/container/motherquark.h"
+#include "UserCode/OpenHF/container/middleparticle.h"
+#include "UserCode/OpenHF/container/dmeson.h"
+#include "FWCore/Framework/interface/EDAnalyzer.h"
+
+using namespace edm;
+using namespace std;
+using namespace reco;
+
+
+
+class Dcharged_ccbar : public edm::EDAnalyzer
+{
+
+   public:
+   
+      //
+      explicit Dcharged_ccbar( const edm::ParameterSet& ) ;
+      virtual ~Dcharged_ccbar() {} // no need to delete ROOT stuff
+                                   // as it'll be deleted upon closing TFile
+      
+      virtual void analyze( const edm::Event&, const edm::EventSetup& ) ;
+      virtual void beginJob() ;
+      virtual void endRun( const edm::Run&, const edm::EventSetup& ) ;
+      virtual void endJob() ;
+      void daughterfill(daughterparticle * daughter,const Candidate * candidate);
+      void motherfill(motherquark * mother, const Candidate * candidate);
+      void middlefill(middleparticle * middle, const Candidate * candidate);
+      void dmesonfill(dmeson * d, const Candidate * candidate);    
+
+   private:
+     
+     TH1D*       dchargedpt ;
+     TTree *     dchargedtree;
+     double      pt_dmeson;
+     double      eta_paifromdcharged;
+//     daughterparticle *paionfromdcharged;
+     dmeson *    dmeson_dcharged;
+     daughterparticle * particle1fromdmeson;
+     daughterparticle * particle2fromdmeson;
+     daughterparticle * particle3fromdmeson;
+     motherquark *      dmesonmotherquark;
+//     middleparticle *   particledecayed;
+     
+}; 
+
+
+Dcharged_ccbar::Dcharged_ccbar( const ParameterSet& pset )
+{
+    particle1fromdmeson = new daughterparticle();
+    particle2fromdmeson = new daughterparticle();
+    particle3fromdmeson = new daughterparticle();
+    dmesonmotherquark =  new motherquark();
+    dmeson_dcharged = new dmeson();
+// actually, pset is NOT in use - we keep it here just for illustratory putposes
+
+//  dchargedtree = new TTree("dchargedtree", "dchargedtree");
+//  pai = new daughterparticle();
+//  dchargedtree->Branch("pai","daughterparticle",&pai,32000,1);
+
+}
+
+void Dcharged_ccbar::beginJob()
+{
+  Service<TFileService> fs; 
+  dchargedtree = fs->make<TTree>("dchargedtree","dchargedtree");
+//  dchargedtree->Branch("pai","daughterparticle",&paionfromdcharged,32000,0);
+  dchargedtree->Branch("dcharged","dmeson",&dmeson_dcharged,32000,1);  
+  
+  return ;
+  
+}
+
+void Dcharged_ccbar::daughterfill(daughterparticle *daughter, const Candidate * candidate)
+{  
+       daughter->pt = candidate->pt();
+       daughter->charge = candidate->charge(); 
+       daughter->motherid = (candidate->mother())->pdgId(); 
+       daughter->pid = candidate->pdgId(); 
+       daughter->phi = candidate->phi(); 
+       daughter->eta = candidate->eta(); 
+       daughter->mass = candidate->mass();
+  return;
+}
+
+void Dcharged_ccbar::motherfill(motherquark *mother, const Candidate * candidate)
+{
+       mother->pt = candidate->pt();
+       mother->charge = candidate->charge();
+       mother->pid = candidate->pdgId();
+       mother->phi = candidate->phi();
+       mother->eta = candidate->eta();
+       mother->mass = candidate->mass();
+  return;
+}
+
+void Dcharged_ccbar::middlefill(middleparticle *middle, const Candidate * candidate)
+{
+       middle->pt = candidate->pt();
+       middle->charge = candidate->charge();
+       middle->motherid = (candidate->mother())->pdgId();
+       middle->pid = candidate->pdgId();
+       middle->phi = candidate->phi();
+       middle->eta = candidate->eta();
+       middle->mass = candidate->mass();
+       middle->numberofdaughter = candidate->numberOfDaughters();
+  return;
+}
+
+void Dcharged_ccbar::dmesonfill(dmeson *d, const Candidate * candidate)
+{
+       d->pt = candidate->pt();
+       d->charge = candidate->charge();
+       d->motherid = (candidate->mother())->pdgId();
+       d->pid = candidate->pdgId();
+       d->phi = candidate->phi();
+       d->eta = candidate->eta();
+       d->mass = candidate->mass();
+       d->numberofdaughter = candidate->numberOfDaughters();
+  return;
+}
+
+
+void Dcharged_ccbar::analyze( const Event& e, const EventSetup& )
+{
+  
+  // here's an example of accessing GenEventInfoProduct
+  Handle< GenEventInfoProduct > GenInfoHandle;
+  e.getByLabel( "generator", GenInfoHandle );
+  double qScale = GenInfoHandle->qScale();
+  double pthat = ( GenInfoHandle->hasBinningValues() ? 
+                  (GenInfoHandle->binningValues())[0] : 0.0);
+//  cout << " qScale = " << qScale << " pthat = " << pthat << endl;
+  //
+  // this (commented out) code below just exemplifies how to access certain info 
+  //
+  //double evt_weight1 = GenInfoHandle->weights()[0]; // this is "stanrd Py6 evt weight;
+                                                    // corresponds to PYINT1/VINT(97)
+  //double evt_weight2 = GenInfoHandle->weights()[1]; // in case you run in CSA mode or otherwise
+                                                    // use PYEVWT routine, this will be weight
+						    // as returned by PYEVWT, i.e. PYINT1/VINT(99)
+  //std::cout << " evt_weight1 = " << evt_weight1 << std::endl;
+  //std::cout << " evt_weight2 = " << evt_weight2 << std::endl;
+  //double weight = GenInfoHandle->weight();
+  //std::cout << " as returned by the weight() method, integrated event weight = " << weight << std::endl;
+  
+  // here's an example of accessing particles in the event record (HepMCProduct)
+  //
+  Handle< HepMCProduct > EvtHandle ;
+  
+  // find initial (unsmeared, unfiltered,...) HepMCProduct
+  //
+  e.getByLabel( "generator", EvtHandle ) ;
+  
+  const HepMC::GenEvent* Evt = EvtHandle->GetEvent() ;
+  
+  // this a pointer - and not an array/vector/... 
+  // because this example explicitely assumes
+  // that there one and only Higgs in the record
+  //
+  HepMC::GenVertex* D0DecVtx = 0 ;
+
+  int numberofdcharged = 0;
+  int numberofd0tokaipai = 0;
+ 
+  
+  Handle<GenParticleCollection> genParticles;
+  e.getByLabel("hiGenParticles", genParticles);
+//  cout << "particle number = " << genParticles->size() << endl;
+
+
+  for(size_t i = 0; i < genParticles->size(); ++ i) {
+     const GenParticle & p = (*genParticles)[i];
+     int id = p.pdgId();
+     int st = p.status();  
+     if (abs(id) != 411 || abs(st) != 2)   continue;
+     numberofdcharged++;
+     const Candidate * mom1 = p.mother();
+     const Candidate * mom = mom1->mother();
+//     cout << "pid of mother's mother = " << (mom->mother())->pdgId() << endl;
+//     const Candidate * ancester = p.();
+//     double pt = p.pt(), eta = p.eta(), phi = p.phi(), mass = p.mass();
+//     pt_dmeson = pt;
+//     double vx = p.vx(), vy = p.vy(), vz = p.vz();
+//     int charge = p.charge();
+     int n = p.numberOfDaughters();
+     if ( n != 3) continue;
+     const Candidate * paion1 = NULL;
+     const Candidate * paion2 = NULL;
+     const Candidate * kaion = NULL;
+    
+     for(int j = 0; j < n; ++ j) {
+       const Candidate * dau = p.daughter( j );
+       int dauId = abs(dau->pdgId());
+       if(dauId == 321)     kaion = p.daughter(j);
+       if(dauId == 211)     paion1 = p.daughter(j);
+       if(dauId == 211 && abs(paion1->pdgId()) == 211 )   paion2 = p.daughter(j);
+     }
+   
+     if (!(paion1!=NULL && paion2!=NULL && kaion != NULL))    continue;
+     if (!(abs(paion1->pdgId())==211 && abs(paion2->pdgId())==211 && abs(kaion->pdgId())==321))    continue;
+
+     const Candidate * ddcharged = &p;
+//     cout << "Dcharged to pai kai pai" << endl;
+     
+     daughterfill(particle1fromdmeson,paion1);
+     motherfill(dmesonmotherquark,mom);
+     daughterfill(particle2fromdmeson,paion2);
+     daughterfill(particle3fromdmeson,kaion);
+     dmesonfill (dmeson_dcharged,ddcharged);
+     (dmeson_dcharged->momquark).push_back(*dmesonmotherquark);
+     (dmeson_dcharged->daughters).push_back(*particle1fromdmeson);
+     (dmeson_dcharged->daughters).push_back(*particle2fromdmeson);
+     (dmeson_dcharged->daughters).push_back(*particle3fromdmeson); 
+
+     dchargedtree->Fill();
+     dmeson_dcharged->clear();
+     particle1fromdmeson->clear();
+     particle2fromdmeson->clear();
+     particle3fromdmeson->clear();
+     dmesonmotherquark->clear();
+   }
+ 
+
+//   cout << "number of Dcharged =====" << numberofdcharged << endl;
+  
+   
+   return ;
+   
+}
+
+void Dcharged_ccbar::endRun( const edm::Run& r, const edm::EventSetup& )
+{
+
+   return;
+
+}
+
+
+void Dcharged_ccbar::endJob()
+{
+   
+   return ;
+}
+ 
+typedef Dcharged_ccbar Dcharged_ccbar_Analyzer;
+DEFINE_FWK_MODULE(Dcharged_ccbar_Analyzer);

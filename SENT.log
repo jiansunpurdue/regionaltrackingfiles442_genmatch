@@ -1,0 +1,28 @@
+POST /srm/v2/server HTTP/1.1
+Host: srm-dcache.rcac.purdue.edu:8443
+User-Agent: gSOAP/2.7
+Content-Type: text/xml; charset=utf-8
+Content-Length: 785
+Connection: close
+SOAPAction: "Ls"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:srm2="http://srm.lbl.gov/StorageResourceManager"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><srm2:srmLs><srmLsRequest><arrayOfSURLs><urlArray>srm://srm-dcache.rcac.purdue.edu:8443/srm/v2/server?SFN=/mnt/hadoop//store/user/jisun/Regional_tracking_3_eta0p3_phi0p4_all_hisiganl_CJet_Pt170_producv_matchbefore/</urlArray></arrayOfSURLs><fullDetailedList>true</fullDetailedList><numOfLevels>0</numOfLevels></srmLsRequest></srm2:srmLs></SOAP-ENV:Body></SOAP-ENV:Envelope>POST /srm/v2/server HTTP/1.1
+Host: srm-dcache.rcac.purdue.edu:8443
+User-Agent: gSOAP/2.7
+Content-Type: text/xml; charset=utf-8
+Content-Length: 785
+Connection: close
+SOAPAction: "Ls"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:srm2="http://srm.lbl.gov/StorageResourceManager"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><srm2:srmLs><srmLsRequest><arrayOfSURLs><urlArray>srm://srm-dcache.rcac.purdue.edu:8443/srm/v2/server?SFN=/mnt/hadoop//store/user/jisun/Regional_tracking_3_eta0p3_phi0p4_all_hisiganl_CJet_Pt170_producv_matchbefore/</urlArray></arrayOfSURLs><fullDetailedList>true</fullDetailedList><numOfLevels>0</numOfLevels></srmLsRequest></srm2:srmLs></SOAP-ENV:Body></SOAP-ENV:Envelope>POST /srm/v2/server HTTP/1.1
+Host: srm-dcache.rcac.purdue.edu:8443
+User-Agent: gSOAP/2.7
+Content-Type: text/xml; charset=utf-8
+Content-Length: 762
+Connection: close
+SOAPAction: "Ls"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:srm2="http://srm.lbl.gov/StorageResourceManager"><SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><srm2:srmLs><srmLsRequest><arrayOfSURLs><urlArray>srm://srm-dcache.rcac.purdue.edu:8443/srm/v2/server?SFN=/mnt/hadoop//store/user/jisun/hiselected_all_hisiganl_CJet_Pt170_producv_matchbefore/</urlArray></arrayOfSURLs><fullDetailedList>true</fullDetailedList><numOfLevels>0</numOfLevels></srmLsRequest></srm2:srmLs></SOAP-ENV:Body></SOAP-ENV:Envelope>

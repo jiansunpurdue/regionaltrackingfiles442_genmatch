@@ -1,0 +1,686 @@
+crab:  Version 2.9.1 running on Mon Oct 21 04:45:28 2013 CET (02:45:28 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /afs/cern.ch/work/j/jisun/HIN/regionaltracking/CMSSW_4_4_2/src/crab_0_131021_042316/
+
+crab:  Checking the status of all jobs: please wait
+crab:  contacting remote host hcc-crabserver.unl.edu
+crab:  
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Submitted         SubSuccess                           
+2     N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+3     N   Submitted         SubSuccess                           
+4     N   Running           SubSuccess                           ce2.accre.vanderbilt.edu
+5     N   Submitted         SubSuccess                           
+6     N   Submitted         SubSuccess                           
+7     N   Submitted         SubSuccess                           
+8     N   Submitted         SubSuccess                           
+9     N   Submitted         SubSuccess                           
+10    N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+11    N   Submitted         SubSuccess                           
+12    N   Submitted         SubSuccess                           
+13    N   Submitted         SubSuccess                           
+14    N   Submitted         SubSuccess                           
+15    N   Submitted         SubSuccess                           
+16    N   Submitted         SubSuccess                           
+17    N   Submitted         SubSuccess                           
+18    N   Submitted         SubSuccess                           
+19    N   Submitted         SubSuccess                           
+20    N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+21    N   Submitted         SubSuccess                           
+22    N   Submitted         SubSuccess                           
+23    N   Submitted         SubSuccess                           
+24    N   Submitted         SubSuccess                           
+25    N   Submitted         SubSuccess                           
+26    N   Submitted         SubSuccess                           
+27    N   Submitted         SubSuccess                           
+28    N   Submitted         SubSuccess                           
+29    N   Submitted         SubSuccess                           
+30    N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+31    N   Submitted         SubSuccess                           
+32    N   Submitted         SubSuccess                           
+33    N   Submitted         SubSuccess                           
+34    N   Submitted         SubSuccess                           
+35    N   Submitted         SubSuccess                           
+36    N   Submitted         SubSuccess                           
+37    N   Submitted         SubSuccess                           
+38    N   Submitted         SubSuccess                           
+39    N   Submitted         SubSuccess                           
+40    N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+41    N   Submitted         SubSuccess                           
+42    N   Submitted         SubSuccess                           
+43    N   Submitted         SubSuccess                           
+44    N   Submitted         SubSuccess                           
+45    N   Submitted         SubSuccess                           
+46    N   Submitted         SubSuccess                           
+47    N   Submitted         SubSuccess                           
+48    N   Submitted         SubSuccess                           
+49    N   Submitted         SubSuccess                           
+50    N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+51    N   Submitted         SubSuccess                           
+52    N   Submitted         SubSuccess                           
+53    N   Submitted         SubSuccess                           
+54    N   Submitted         SubSuccess                           
+55    N   Submitted         SubSuccess                           
+56    N   Submitted         SubSuccess                           
+57    N   Submitted         SubSuccess                           
+58    N   Submitted         SubSuccess                           
+59    N   Submitted         SubSuccess                           
+60    N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+61    N   Submitted         SubSuccess                           
+62    N   Submitted         SubSuccess                           
+63    N   Submitted         SubSuccess                           
+64    N   Submitted         SubSuccess                           
+65    N   Submitted         SubSuccess                           
+66    N   Submitted         SubSuccess                           
+67    N   Submitted         SubSuccess                           
+68    N   Submitted         SubSuccess                           
+69    N   Submitted         SubSuccess                           
+70    N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+71    N   Submitted         SubSuccess                           
+72    N   Submitted         SubSuccess                           
+73    N   Submitted         SubSuccess                           
+74    N   Submitted         SubSuccess                           
+75    N   Submitted         SubSuccess                           
+76    N   Submitted         SubSuccess                           
+77    N   Submitted         SubSuccess                           
+78    N   Submitted         SubSuccess                           
+79    N   Submitted         SubSuccess                           
+80    N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+81    N   Submitted         SubSuccess                           
+82    N   Submitted         SubSuccess                           
+83    N   Submitted         SubSuccess                           
+84    N   Submitted         SubSuccess                           
+85    N   Submitted         SubSuccess                           
+86    N   Submitted         SubSuccess                           
+87    N   Submitted         SubSuccess                           
+88    N   Submitted         SubSuccess                           
+89    N   Submitted         SubSuccess                           
+90    N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+91    N   Submitted         SubSuccess                           
+92    N   Submitted         SubSuccess                           
+93    N   Submitted         SubSuccess                           
+94    N   Submitted         SubSuccess                           
+95    N   Submitted         SubSuccess                           
+96    N   Submitted         SubSuccess                           
+97    N   Submitted         SubSuccess                           
+98    N   Submitted         SubSuccess                           
+99    N   Submitted         SubSuccess                           
+100   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+101   N   Submitted         SubSuccess                           
+102   N   Submitted         SubSuccess                           
+103   N   Submitted         SubSuccess                           
+104   N   Submitted         SubSuccess                           
+105   N   Submitted         SubSuccess                           
+106   N   Submitted         SubSuccess                           
+107   N   Submitted         SubSuccess                           
+108   N   Submitted         SubSuccess                           
+109   N   Submitted         SubSuccess                           
+110   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+111   N   Submitted         SubSuccess                           
+112   N   Submitted         SubSuccess                           
+113   N   Submitted         SubSuccess                           
+114   N   Submitted         SubSuccess                           
+115   N   Submitted         SubSuccess                           
+116   N   Submitted         SubSuccess                           
+117   N   Submitted         SubSuccess                           
+118   N   Submitted         SubSuccess                           
+119   N   Submitted         SubSuccess                           
+120   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+121   N   Submitted         SubSuccess                           
+122   N   Submitted         SubSuccess                           
+123   N   Submitted         SubSuccess                           
+124   N   Submitted         SubSuccess                           
+125   N   Submitted         SubSuccess                           
+126   N   Submitted         SubSuccess                           
+127   N   Submitted         SubSuccess                           
+128   N   Submitted         SubSuccess                           
+129   N   Submitted         SubSuccess                           
+130   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+131   N   Submitted         SubSuccess                           
+132   N   Submitted         SubSuccess                           
+133   N   Submitted         SubSuccess                           
+134   N   Submitted         SubSuccess                           
+135   N   Submitted         SubSuccess                           
+136   N   Submitted         SubSuccess                           
+137   N   Submitted         SubSuccess                           
+138   N   Submitted         SubSuccess                           
+139   N   Submitted         SubSuccess                           
+140   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+141   N   Submitted         SubSuccess                           
+142   N   Submitted         SubSuccess                           
+143   N   Submitted         SubSuccess                           
+144   N   Submitted         SubSuccess                           
+145   N   Submitted         SubSuccess                           
+146   N   Submitted         SubSuccess                           
+147   N   Submitted         SubSuccess                           
+148   N   Submitted         SubSuccess                           
+149   N   Submitted         SubSuccess                           
+150   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+151   N   Submitted         SubSuccess                           
+152   N   Submitted         SubSuccess                           
+153   N   Submitted         SubSuccess                           
+154   N   Submitted         SubSuccess                           
+155   N   Submitted         SubSuccess                           
+156   N   Submitted         SubSuccess                           
+157   N   Submitted         SubSuccess                           
+158   N   Submitted         SubSuccess                           
+159   N   Submitted         SubSuccess                           
+160   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+161   N   Submitted         SubSuccess                           
+162   N   Submitted         SubSuccess                           
+163   N   Submitted         SubSuccess                           
+164   N   Submitted         SubSuccess                           
+165   N   Submitted         SubSuccess                           
+166   N   Submitted         SubSuccess                           
+167   N   Submitted         SubSuccess                           
+168   N   Submitted         SubSuccess                           
+169   N   Submitted         SubSuccess                           
+170   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+171   N   Submitted         SubSuccess                           
+172   N   Submitted         SubSuccess                           
+173   N   Submitted         SubSuccess                           
+174   N   Submitted         SubSuccess                           
+175   N   Submitted         SubSuccess                           
+176   N   Submitted         SubSuccess                           
+177   N   Submitted         SubSuccess                           
+178   N   Submitted         SubSuccess                           
+179   N   Submitted         SubSuccess                           
+180   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+181   N   Submitted         SubSuccess                           
+182   N   Submitted         SubSuccess                           
+183   N   Submitted         SubSuccess                           
+184   N   Submitted         SubSuccess                           
+185   N   Submitted         SubSuccess                           
+186   N   Submitted         SubSuccess                           
+187   N   Submitted         SubSuccess                           
+188   N   Submitted         SubSuccess                           
+189   N   Submitted         SubSuccess                           
+190   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+191   N   Submitted         SubSuccess                           
+192   N   Submitted         SubSuccess                           
+193   N   Submitted         SubSuccess                           
+194   N   Submitted         SubSuccess                           
+195   N   Submitted         SubSuccess                           
+196   N   Submitted         SubSuccess                           
+197   N   Submitted         SubSuccess                           
+198   N   Submitted         SubSuccess                           
+199   N   Submitted         SubSuccess                           
+200   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+201   N   Submitted         SubSuccess                           
+202   N   Submitted         SubSuccess                           
+203   N   Submitted         SubSuccess                           
+204   N   Submitted         SubSuccess                           
+205   N   Submitted         SubSuccess                           
+206   N   Submitted         SubSuccess                           
+207   N   Submitted         SubSuccess                           
+208   N   Submitted         SubSuccess                           
+209   N   Submitted         SubSuccess                           
+210   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+211   N   Submitted         SubSuccess                           
+212   N   Submitted         SubSuccess                           
+213   N   Submitted         SubSuccess                           
+214   N   Submitted         SubSuccess                           
+215   N   Submitted         SubSuccess                           
+216   N   Submitted         SubSuccess                           
+217   N   Submitted         SubSuccess                           
+218   N   Submitted         SubSuccess                           
+219   N   Submitted         SubSuccess                           
+220   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+221   N   Submitted         SubSuccess                           
+222   N   Submitted         SubSuccess                           
+223   N   Submitted         SubSuccess                           
+224   N   Submitted         SubSuccess                           
+225   N   Submitted         SubSuccess                           
+226   N   Submitted         SubSuccess                           
+227   N   Submitted         SubSuccess                           
+228   N   Submitted         SubSuccess                           
+229   N   Submitted         SubSuccess                           
+230   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+231   N   Submitted         SubSuccess                           
+232   N   Submitted         SubSuccess                           
+233   N   Submitted         SubSuccess                           
+234   N   Submitted         SubSuccess                           
+235   N   Submitted         SubSuccess                           
+236   N   Submitted         SubSuccess                           
+237   N   Submitted         SubSuccess                           
+238   N   Submitted         SubSuccess                           
+239   N   Submitted         SubSuccess                           
+240   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+241   N   Submitted         SubSuccess                           
+242   N   Submitted         SubSuccess                           
+243   N   Submitted         SubSuccess                           
+244   N   Submitted         SubSuccess                           
+245   N   Submitted         SubSuccess                           
+246   N   Submitted         SubSuccess                           
+247   N   Submitted         SubSuccess                           
+248   N   Submitted         SubSuccess                           
+249   N   Submitted         SubSuccess                           
+250   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+251   N   Submitted         SubSuccess                           
+252   N   Submitted         SubSuccess                           
+253   N   Submitted         SubSuccess                           
+254   N   Submitted         SubSuccess                           
+255   N   Submitted         SubSuccess                           
+256   N   Submitted         SubSuccess                           
+257   N   Submitted         SubSuccess                           
+258   N   Submitted         SubSuccess                           
+259   N   Submitted         SubSuccess                           
+260   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+261   N   Submitted         SubSuccess                           
+262   N   Submitted         SubSuccess                           
+263   N   Submitted         SubSuccess                           
+264   N   Submitted         SubSuccess                           
+265   N   Submitted         SubSuccess                           
+266   N   Submitted         SubSuccess                           
+267   N   Submitted         SubSuccess                           
+268   N   Submitted         SubSuccess                           
+269   N   Submitted         SubSuccess                           
+270   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+271   N   Submitted         SubSuccess                           
+272   N   Submitted         SubSuccess                           
+273   N   Submitted         SubSuccess                           
+274   N   Submitted         SubSuccess                           
+275   N   Submitted         SubSuccess                           
+276   N   Submitted         SubSuccess                           
+277   N   Submitted         SubSuccess                           
+278   N   Submitted         SubSuccess                           
+279   N   Submitted         SubSuccess                           
+280   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+281   N   Submitted         SubSuccess                           
+282   N   Submitted         SubSuccess                           
+283   N   Submitted         SubSuccess                           
+284   N   Submitted         SubSuccess                           
+285   N   Submitted         SubSuccess                           
+286   N   Submitted         SubSuccess                           
+287   N   Submitted         SubSuccess                           
+288   N   Submitted         SubSuccess                           
+289   N   Submitted         SubSuccess                           
+290   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+291   N   Submitted         SubSuccess                           
+292   N   Submitted         SubSuccess                           
+293   N   Submitted         SubSuccess                           
+294   N   Submitted         SubSuccess                           
+295   N   Submitted         SubSuccess                           
+296   N   Submitted         SubSuccess                           
+297   N   Submitted         SubSuccess                           
+298   N   Submitted         SubSuccess                           
+299   N   Submitted         SubSuccess                           
+300   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+301   N   Submitted         SubSuccess                           
+302   N   Submitted         SubSuccess                           
+303   N   Submitted         SubSuccess                           
+304   N   Submitted         SubSuccess                           
+305   N   Submitted         SubSuccess                           
+306   N   Submitted         SubSuccess                           
+307   N   Submitted         SubSuccess                           
+308   N   Submitted         SubSuccess                           
+309   N   Submitted         SubSuccess                           
+310   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+311   N   Submitted         SubSuccess                           
+312   N   Submitted         SubSuccess                           
+313   N   Submitted         SubSuccess                           
+314   N   Submitted         SubSuccess                           
+315   N   Submitted         SubSuccess                           
+316   N   Submitted         SubSuccess                           
+317   N   Submitted         SubSuccess                           
+318   N   Submitted         SubSuccess                           
+319   N   Submitted         SubSuccess                           
+320   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+321   N   Submitted         SubSuccess                           
+322   N   Submitted         SubSuccess                           
+323   N   Submitted         SubSuccess                           
+324   N   Submitted         SubSuccess                           
+325   N   Submitted         SubSuccess                           
+326   N   Submitted         SubSuccess                           
+327   N   Submitted         SubSuccess                           
+328   N   Submitted         SubSuccess                           
+329   N   Submitted         SubSuccess                           
+330   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+331   N   Submitted         SubSuccess                           
+332   N   Submitted         SubSuccess                           
+333   N   Submitted         SubSuccess                           
+334   N   Submitted         SubSuccess                           
+335   N   Submitted         SubSuccess                           
+336   N   Submitted         SubSuccess                           
+337   N   Submitted         SubSuccess                           
+338   N   Submitted         SubSuccess                           
+339   N   Submitted         SubSuccess                           
+340   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+341   N   Submitted         SubSuccess                           
+342   N   Submitted         SubSuccess                           
+343   N   Submitted         SubSuccess                           
+344   N   Submitted         SubSuccess                           
+345   N   Submitted         SubSuccess                           
+346   N   Submitted         SubSuccess                           
+347   N   Submitted         SubSuccess                           
+348   N   Submitted         SubSuccess                           
+349   N   Submitted         SubSuccess                           
+350   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+351   N   Submitted         SubSuccess                           
+352   N   Submitted         SubSuccess                           
+353   N   Submitted         SubSuccess                           
+354   N   Submitted         SubSuccess                           
+355   N   Submitted         SubSuccess                           
+356   N   Submitted         SubSuccess                           
+357   N   Submitted         SubSuccess                           
+358   N   Submitted         SubSuccess                           
+359   N   Submitted         SubSuccess                           
+360   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+361   N   Submitted         SubSuccess                           
+362   N   Submitted         SubSuccess                           
+363   N   Submitted         SubSuccess                           
+364   N   Submitted         SubSuccess                           
+365   N   Submitted         SubSuccess                           
+366   N   Submitted         SubSuccess                           
+367   N   Submitted         SubSuccess                           
+368   N   Submitted         SubSuccess                           
+369   N   Submitted         SubSuccess                           
+370   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+371   N   Submitted         SubSuccess                           
+372   N   Submitted         SubSuccess                           
+373   N   Submitted         SubSuccess                           
+374   N   Submitted         SubSuccess                           
+375   N   Submitted         SubSuccess                           
+376   N   Submitted         SubSuccess                           
+377   N   Submitted         SubSuccess                           
+378   N   Submitted         SubSuccess                           
+379   N   Submitted         SubSuccess                           
+380   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+381   N   Submitted         SubSuccess                           
+382   N   Submitted         SubSuccess                           
+383   N   Submitted         SubSuccess                           
+384   N   Submitted         SubSuccess                           
+385   N   Submitted         SubSuccess                           
+386   N   Submitted         SubSuccess                           
+387   N   Submitted         SubSuccess                           
+388   N   Submitted         SubSuccess                           
+389   N   Submitted         SubSuccess                           
+390   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+391   N   Submitted         SubSuccess                           
+392   N   Submitted         SubSuccess                           
+393   N   Submitted         SubSuccess                           
+394   N   Submitted         SubSuccess                           
+395   N   Submitted         SubSuccess                           
+396   N   Submitted         SubSuccess                           
+397   N   Submitted         SubSuccess                           
+398   N   Submitted         SubSuccess                           
+399   N   Submitted         SubSuccess                           
+400   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+401   N   Submitted         SubSuccess                           
+402   N   Submitted         SubSuccess                           
+403   N   Submitted         SubSuccess                           
+404   N   Submitted         SubSuccess                           
+405   N   Submitted         SubSuccess                           
+406   N   Submitted         SubSuccess                           
+407   N   Submitted         SubSuccess                           
+408   N   Submitted         SubSuccess                           
+409   N   Submitted         SubSuccess                           
+410   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+411   N   Submitted         SubSuccess                           
+412   N   Submitted         SubSuccess                           
+413   N   Submitted         SubSuccess                           
+414   N   Submitted         SubSuccess                           
+415   N   Submitted         SubSuccess                           
+416   N   Submitted         SubSuccess                           
+417   N   Submitted         SubSuccess                           
+418   N   Submitted         SubSuccess                           
+419   N   Submitted         SubSuccess                           
+420   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+421   N   Submitted         SubSuccess                           
+422   N   Submitted         SubSuccess                           
+423   N   Submitted         SubSuccess                           
+424   N   Submitted         SubSuccess                           
+425   N   Submitted         SubSuccess                           
+426   N   Submitted         SubSuccess                           
+427   N   Submitted         SubSuccess                           
+428   N   Submitted         SubSuccess                           
+429   N   Submitted         SubSuccess                           
+430   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+431   N   Submitted         SubSuccess                           
+432   N   Submitted         SubSuccess                           
+433   N   Submitted         SubSuccess                           
+434   N   Submitted         SubSuccess                           
+435   N   Submitted         SubSuccess                           
+436   N   Submitted         SubSuccess                           
+437   N   Submitted         SubSuccess                           
+438   N   Submitted         SubSuccess                           
+439   N   Submitted         SubSuccess                           
+440   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+441   N   Submitted         SubSuccess                           
+442   N   Submitted         SubSuccess                           
+443   N   Submitted         SubSuccess                           
+444   N   Submitted         SubSuccess                           
+445   N   Submitted         SubSuccess                           
+446   N   Submitted         SubSuccess                           
+447   N   Submitted         SubSuccess                           
+448   N   Submitted         SubSuccess                           
+449   N   Submitted         SubSuccess                           
+450   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+451   N   Submitted         SubSuccess                           
+452   N   Submitted         SubSuccess                           
+453   N   Submitted         SubSuccess                           
+454   N   Submitted         SubSuccess                           
+455   N   Submitted         SubSuccess                           
+456   N   Submitted         SubSuccess                           
+457   N   Submitted         SubSuccess                           
+458   N   Submitted         SubSuccess                           
+459   N   Submitted         SubSuccess                           
+460   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+461   N   Submitted         SubSuccess                           
+462   N   Submitted         SubSuccess                           
+463   N   Submitted         SubSuccess                           
+464   N   Submitted         SubSuccess                           
+465   N   Submitted         SubSuccess                           
+466   N   Submitted         SubSuccess                           
+467   N   Submitted         SubSuccess                           
+468   N   Submitted         SubSuccess                           
+469   N   Submitted         SubSuccess                           
+470   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+471   N   Submitted         SubSuccess                           
+472   N   Submitted         SubSuccess                           
+473   N   Submitted         SubSuccess                           
+474   N   Submitted         SubSuccess                           
+475   N   Submitted         SubSuccess                           
+476   N   Submitted         SubSuccess                           
+477   N   Submitted         SubSuccess                           
+478   N   Submitted         SubSuccess                           
+479   N   Submitted         SubSuccess                           
+480   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+481   N   Submitted         SubSuccess                           
+482   N   Submitted         SubSuccess                           
+483   N   Submitted         SubSuccess                           
+484   N   Submitted         SubSuccess                           
+485   N   Submitted         SubSuccess                           
+486   N   Submitted         SubSuccess                           
+487   N   Submitted         SubSuccess                           
+488   N   Submitted         SubSuccess                           
+489   N   Submitted         SubSuccess                           
+490   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+491   N   Submitted         SubSuccess                           
+492   N   Submitted         SubSuccess                           
+493   N   Submitted         SubSuccess                           
+494   N   Submitted         SubSuccess                           
+495   N   Submitted         SubSuccess                           
+496   N   Submitted         SubSuccess                           
+497   N   Submitted         SubSuccess                           
+498   N   Submitted         SubSuccess                           
+499   N   Submitted         SubSuccess                           
+500   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+501   N   Submitted         SubSuccess                           
+502   N   Submitted         SubSuccess                           
+503   N   Submitted         SubSuccess                           
+504   N   Submitted         SubSuccess                           
+505   N   Submitted         SubSuccess                           
+506   N   Submitted         SubSuccess                           
+507   N   Submitted         SubSuccess                           
+508   N   Submitted         SubSuccess                           
+509   N   Submitted         SubSuccess                           
+510   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+511   N   Submitted         SubSuccess                           
+512   N   Submitted         SubSuccess                           
+513   N   Submitted         SubSuccess                           
+514   N   Submitted         SubSuccess                           
+515   N   Submitted         SubSuccess                           
+516   N   Submitted         SubSuccess                           
+517   N   Submitted         SubSuccess                           
+518   N   Submitted         SubSuccess                           
+519   N   Submitted         SubSuccess                           
+520   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+521   N   Submitted         SubSuccess                           
+522   N   Submitted         SubSuccess                           
+523   N   Submitted         SubSuccess                           
+524   N   Submitted         SubSuccess                           
+525   N   Submitted         SubSuccess                           
+526   N   Submitted         SubSuccess                           
+527   N   Submitted         SubSuccess                           
+528   N   Submitted         SubSuccess                           
+529   N   Submitted         SubSuccess                           
+530   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+531   N   Submitted         SubSuccess                           
+532   N   Submitted         SubSuccess                           
+533   N   Submitted         SubSuccess                           
+534   N   Submitted         SubSuccess                           
+535   N   Submitted         SubSuccess                           
+536   N   Submitted         SubSuccess                           
+537   N   Submitted         SubSuccess                           
+538   N   Submitted         SubSuccess                           
+539   N   Submitted         SubSuccess                           
+540   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+541   N   Submitted         SubSuccess                           
+542   N   Submitted         SubSuccess                           
+543   N   Submitted         SubSuccess                           
+544   N   Submitted         SubSuccess                           
+545   N   Submitted         SubSuccess                           
+546   N   Submitted         SubSuccess                           
+547   N   Submitted         SubSuccess                           
+548   N   Submitted         SubSuccess                           
+549   N   Submitted         SubSuccess                           
+550   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+551   N   Submitted         SubSuccess                           
+552   N   Submitted         SubSuccess                           
+553   N   Submitted         SubSuccess                           
+554   N   Submitted         SubSuccess                           
+555   N   Submitted         SubSuccess                           
+556   N   Submitted         SubSuccess                           
+557   N   Submitted         SubSuccess                           
+558   N   Submitted         SubSuccess                           
+559   N   Submitted         SubSuccess                           
+560   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+561   N   Submitted         SubSuccess                           
+562   N   Submitted         SubSuccess                           
+563   N   Submitted         SubSuccess                           
+564   N   Submitted         SubSuccess                           
+565   N   Submitted         SubSuccess                           
+566   N   Submitted         SubSuccess                           
+567   N   Submitted         SubSuccess                           
+568   N   Submitted         SubSuccess                           
+569   N   Submitted         SubSuccess                           
+570   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+571   N   Submitted         SubSuccess                           
+572   N   Submitted         SubSuccess                           
+573   N   Submitted         SubSuccess                           
+574   N   Submitted         SubSuccess                           
+575   N   Submitted         SubSuccess                           
+576   N   Submitted         SubSuccess                           
+577   N   Submitted         SubSuccess                           
+578   N   Submitted         SubSuccess                           
+579   N   Submitted         SubSuccess                           
+580   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+581   N   Submitted         SubSuccess                           
+582   N   Submitted         SubSuccess                           
+583   N   Submitted         SubSuccess                           
+584   N   Submitted         SubSuccess                           
+585   N   Submitted         SubSuccess                           
+586   N   Submitted         SubSuccess                           
+587   N   Submitted         SubSuccess                           
+588   N   Submitted         SubSuccess                           
+589   N   Submitted         SubSuccess                           
+590   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+591   N   Submitted         SubSuccess                           
+592   N   Submitted         SubSuccess                           
+593   N   Submitted         SubSuccess                           
+594   N   Submitted         SubSuccess                           
+595   N   Submitted         SubSuccess                           
+596   N   Submitted         SubSuccess                           
+597   N   Submitted         SubSuccess                           
+598   N   Submitted         SubSuccess                           
+599   N   Submitted         SubSuccess                           
+600   N   Submitted         SubSuccess                           
+--------------------------------------------------------------------------------
+601   N   Submitted         SubSuccess                           
+
+crab:   601 Total Jobs 
+ >>>>>>>>> 599 Jobs Submitted 
+	List of jobs Submitted: 1,3,5-601 
+ >>>>>>>>> 2 Jobs Running 
+	List of jobs Running: 2,4 
+
+crab:  You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=jisun_crab_0_131021_042316_4ua86c
+	Your task name is: jisun_crab_0_131021_042316_4ua86c 
+
+Log file is /afs/cern.ch/work/j/jisun/HIN/regionaltracking/CMSSW_4_4_2/src/crab_0_131021_042316/log/crab.log

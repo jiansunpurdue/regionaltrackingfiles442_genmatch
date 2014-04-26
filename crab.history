@@ -1,0 +1,342 @@
+131018_200437: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg -cfg crab_regnialtracking.cfg
+131018_200638: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_regnialtracking.cfg
+131018_200751: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit -c crab_0_131018_200638
+131018_201328: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_regnialtracking.cfg
+131018_202743: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_regnialtracking.cfg
+131018_210255: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_regnialtracking.cfg
+131018_210422: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit -c crab_0_131018_210255
+131018_210456: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1-500 -c crab_0_131018_210255
+131018_210916: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 501-830 -c crab_0_131018_210255
+131018_210935: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_210255
+131018_211021: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_210255
+131018_211105: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_210255
+131018_211305: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_210255
+131018_211430: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_210255
+131018_211650: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_210255
+131018_211826: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_210255
+131018_211937: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -kill all -c crab_0_131018_210255
+131018_212549: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_210255
+131018_221136: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_regnialtracking.cfg
+131018_221241: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1-500 -c crab_0_131018_221136
+131018_221355: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 501-830 -c crab_0_131018_221136
+131018_221455: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_221738: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_222043: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_222146: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_222446: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_222649: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_222807: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_222958: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_223055: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_223338: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_223959: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_224054: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_224146: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_224416: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_224615: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_224844: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_225015: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_225547: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_225909: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_230133: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_230558: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_231024: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_231525: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_231725: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_232019: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_232119: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_232625: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_233132: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_233317: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -kill all -c crab_0_131018_221136
+131018_234035: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_regnialtracking.cfg
+131018_234118: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit -c crab_0_131018_234035
+131018_234355: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131018_234403: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131018_234538: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131018_234609: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_234951: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131018_234958: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_221136
+131018_235408: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131018_235615: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_000010: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_000148: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_000344: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_000603: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_002558: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_002606: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_002909: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_003214: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_003538: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_003802: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_005614: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_010330: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_010605: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_010908: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_021921: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_022827: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_023103: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_regnialtracking.cfg
+131019_023221: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1-500 -c crab_0_131019_023103
+131019_023343: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 501-830 -c crab_0_131019_023103
+131019_023445: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_023103
+131019_023613: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -kill all crab_0_131019_023103
+131019_023948: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_024941: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_025719: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_regnialtracking.cfg
+131019_025833: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1-500 -c crab_0_131019_025719
+131019_025937: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 501-830 -c crab_0_131019_025719
+131019_030020: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_030216: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_030449: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_030957: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_031605: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_031621: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_031801: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_032426: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_033243: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_033423: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_034157: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_040222: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_043250: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_045303: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_050906: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_052619: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_060155: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_061039: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_061132: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 22 -c crab_0_131019_025719
+131019_061409: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_061658: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_064127: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_073325: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_073353: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131018_234035
+131019_074330: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_180739: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131019_204945: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131020_174656: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131019_025719
+131021_042316: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_dmeson.cfg
+131021_042545: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1-500 -c crab_0_131021_042316
+131021_042720: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 501-800 -c crab_0_131021_042316
+131021_042753: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_043330: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_044104: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_044502: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_044528: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_044750: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_045032: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_051238: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_051806: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_052142: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_052409: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_052711: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_053011: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_053435: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_053912: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_054158: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_055049: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_055358: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_055842: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_042316
+131021_211818: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_dmeson.cfg
+131021_211910: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit -c crab_0_131021_211818
+131021_212039: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_211818
+131021_212419: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_211818
+131021_212453: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -kill all -c crab_0_131021_211818
+131021_212920: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_dmeson.cfg
+131021_212953: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit -c crab_0_131021_212920
+131021_213126: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_213657: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_214006: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_220553: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_220845: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_221131: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_222027: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_223257: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_223747: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_224209: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_224623: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_225020: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_225612: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_230510: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_230753: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_231044: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_231958: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_232238: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_232647: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_233139: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_233434: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_234847: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131021_235255: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_002538: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_003652: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_003937: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_004200: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_004419: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_004623: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_004816: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_004953: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_005046: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_005329: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_005553: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_005721: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_010025: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_010153: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_011148: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_011541: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_012042: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_012737: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_013219: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131021_212920
+131022_020105: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_regnialtracking.cfg
+131022_020435: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1-500 -c crab_0_131022_020105
+131022_020611: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 501-1000 -c crab_0_131022_020105
+131022_020941: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1001-1500 -c crab_0_131022_020105
+131022_021211: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1501-2000 -c crab_0_131022_020105
+131022_021328: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_020105
+131022_022108: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -kill all -c crab_0_131022_020105
+131022_031554: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_regnialtracking.cfg
+131022_031659: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1-500 -c crab_0_131022_031554
+131022_032003: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 501-1000 -c crab_0_131022_031554
+131022_032138: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1001-1500 -c crab_0_131022_031554
+131022_032329: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1501-2000 -c crab_0_131022_031554
+131022_032454: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_032628: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_032833: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_033409: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_035629: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_035957: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_042013: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_044023: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_045319: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_045921: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_051255: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_052616: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_053152: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_060316: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_061843: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_172344: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_172849: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 1501,1505,1510,1513,1517,1520-1521,1529-1530,1535,1539,1541,1543,1546,1559,1561-1562,1566,1568,1574-1575,1580,1582-1584,1587,1589,1591,1594,1598-1599,1607,1610,1612,1614,1616,1622-1623,1627,1629,1632,1634-1640,1642-1644,1654,1656-1658 -c crab_0_131022_031554
+131022_172943: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 1501,1505,1510,1513,1517,1520-1521,1529-1530,1535,1539,1541,1543,1546,1559,1561-1562,1566,1568,1574-1575,1580,1582-1584,1587,1589,1591,1594,1598-1599,1607,1610,1612,1614,1616,1622-1623,1627,1629,1632,1634-1640,1642-1644,1654,1656-1658 -c crab_0_131022_031554
+131022_173004: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 1501,1505,1510,1513,1517,1520-1521,1529-1530,1535,1539,1541,1543,1546,1559,1561-1562,1566,1568,1574-1575,1580,1582-1584,1587,1589,1591,1594,1598-1599,1607,1610,1612,1614,1616,1622-1623,1627,1629,1632,1634-1640,1642-1644,1654,1656-1658 -c crab_0_131022_031554
+131022_173437: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_173829: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_174621: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_180300: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_180340: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_180755: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_191541: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_214146: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131022_233113: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131023_053332: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131023_053549: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 254,263,286,436,458,580,814,844,933,1300,1400,1464,1573,1601,1615,1570 -c crab_0_131022_031554
+131023_053615: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 254,263,286,436,458,580,814,844,933,1300,1400,1464,1573,1601,1615,1570 -c crab_0_131022_031554
+131023_053645: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131023_055109: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131022_031554
+131024_185535: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_dmeson.cfg
+131024_185541: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_dmeson.cfg
+131024_185604: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_dmeson.cfg
+131024_185652: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit -c crab_0_131024_185604
+131024_191014: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131024_185604
+131024_191109: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131024_185604
+131024_191134: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131024_185604
+131024_191237: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131024_185604
+131024_193557: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_dmeson_ini.cfg
+131024_193650: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit -c crab_0_131024_193557
+131024_194305: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_dmeson_generator.cfg
+131024_194339: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit -c crab_0_131024_194305
+131024_194419: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131024_185541
+131024_194436: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131024_185604
+131024_194510: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131024_193557
+131024_194534: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131024_194305
+131025_211417: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_regnialtracking.cfg
+131025_211611: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit -c crab_0_131025_211417
+131025_211634: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1-500 -c crab_0_131025_211417
+131025_211800: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -kill all -c crab_0_131025_211417
+131025_213714: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_regnialtracking.cfg
+131025_214722: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1-500 -c crab_0_131025_213714
+131025_215057: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 501-1000 -c crab_0_131025_213714
+131025_215827: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1001-1500 -c crab_0_131025_213714
+131025_220205: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1501-2000 -c crab_0_131025_213714
+131025_233356: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_001121: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_001432: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_005158: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_014108: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_014127: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -create -cfg crab_hiselectedmatch.cfg
+131026_014333: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 1-500 -c crab_0_131026_014127
+131026_014451: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -submit 501-1000 -c crab_0_131026_014127
+131026_014842: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131026_014127
+131026_074050: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131026_014127
+131026_074134: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 1,213,567,607 -c crab_0_131026_014127
+131026_074153: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 1,213,567,607 -c crab_0_131026_014127
+131026_074226: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_074359: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 48,51,100,114,141,157,173,199,210,249,261,264,269,288,299,304,312,347,349,361,394,404,460,465,506,551 -c crab_0_131025_213714
+131026_074444: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 48,51,100,114,141,157,173,199,210,249,261,264,269,288,299,304,312,347,349,361,394,404,460,465,506,551 -c crab_0_131025_213714
+131026_074553: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131026_014127
+131026_074726: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_171108: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_171426: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 141,269,312,347,361,394,402,404,460,473,487,506,533,541,557,568,590,610,631,643,673,677,686,719,764,785,805,824,832,857,863,876,892,932,946,973,1007,1026,1031,1038,1049,1084,1106,1108,1111,1172,1178,1200,1253,1295,1298,1301,1360,1463,1486,1559,1584,1636,1651 -c crab_0_131025_213714
+131026_171504: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 141,269,312,347,361,394,402,404,460,473,487,506,533,541,557,568,590,610,631,643,673,677,686,719,764,785,805,824,832,857,863,876,892,932,946,973,1007,1026,1031,1038,1049,1084,1106,1108,1111,1172,1178,1200,1253,1295,1298,1301,1360,1463,1486,1559,1584,1636,1651 -c crab_0_131025_213714
+131026_171609: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_172158: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_173502: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_174144: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_174325: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_174512: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_174644: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_175318: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_175634: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_175812: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_180545: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_180804: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 312,361,506,541,610,932,1026,1031,1106,1360,1486 -c crab_0_131025_213714
+131026_180829: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 312,361,506,541,610,932,1026,1031,1106,1360,1486 -c crab_0_131025_213714
+131026_180946: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_181522: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_181820: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_211811: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_212022: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 141,312,347,361,460,506,533,557,610,673,764,805,932,1031,1084,1106,1172,1200,1298,1360,1463,1636,1651,473 -c crab_0_131025_213714
+131026_212055: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 141,312,347,361,460,506,533,557,610,673,764,805,932,1031,1084,1106,1172,1200,1298,1360,1463,1636,1651,473 -c crab_0_131025_213714
+131026_213416: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_214021: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_214803: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_215719: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_215856: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 312,506,932,1031,1106,1360 -c crab_0_131025_213714
+131026_215917: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 312,506,932,1031,1106,1360 -c crab_0_131025_213714
+131026_222536: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_222637: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 361,460,506,610,932,1031,1106,1360,1636 -c crab_0_131025_213714
+131026_222704: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 361,460,506,610,932,1031,1106,1360,1636 -c crab_0_131025_213714
+131026_222900: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_222954: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 533,312 -c crab_0_131025_213714
+131026_223012: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 533,312 -c crab_0_131025_213714
+131026_223247: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_223825: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_224044: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_224708: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_224922: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_225011: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 141,506,932,1084,1106,1298 -c crab_0_131025_213714
+131026_225030: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 141,506,932,1084,1106,1298 -c crab_0_131025_213714
+131026_225144: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_225311: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_225536: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_225730: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 312,1360 -c crab_0_131025_213714
+131026_225748: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 312,1360 -c crab_0_131025_213714
+131026_225828: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_225937: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_230114: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_230208: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_230400: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_230452: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 361 -c crab_0_131025_213714
+131026_230508: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 361 -c crab_0_131025_213714
+131026_230556: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_230753: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 610,1172,1636 -c crab_0_131025_213714
+131026_230811: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 610,1172,1636 -c crab_0_131025_213714
+131026_231020: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_231117: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 506,932,1106,1200 -c crab_0_131025_213714
+131026_231135: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 506,932,1106,1200 -c crab_0_131025_213714
+131026_231253: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_231355: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -getoutput 1106 -c crab_0_131025_213714
+131026_231410: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -resubmit 1106 -c crab_0_131025_213714
+131026_231503: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_231641: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_231947: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_232110: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131026_235030: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131027_014447: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131027_030028: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714
+131027_040934: /afs/cern.ch/cms/ccs/wm/scripts/Crab/CRAB_2_9_1/python/crab.py -status -c crab_0_131025_213714

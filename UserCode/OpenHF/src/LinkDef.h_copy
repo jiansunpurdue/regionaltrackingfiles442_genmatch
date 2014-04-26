@@ -1,0 +1,25 @@
+#ifndef __Link_Tana__
+#include "../container/daughterparticle.h"
+#include "../container/motherquark.h"
+#include "../container/dmeson.h"
+#include "../container/middleparticle.h"
+#define __Link_Tana__
+#endif
+
+
+#ifdef __CINT__
+
+#pragma link off all globals;
+#pragma link off all classes;
+#pragma link off all functions;
+
+#pragma link C++ nestedclass;
+#pragma link C++ nestedtypedef;
+
+#pragma link C++ class daughterparticle+;
+#pragma link C++ class motherquark+;
+#pragma link C++ class middleparticle+;
+#pragma link C++ class dmeson+;
+
+#endif
+
